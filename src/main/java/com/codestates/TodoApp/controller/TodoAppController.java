@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TodoAppController {
     @GetMapping("/")
     public String checkText() {
-        return "Todo Application!";
+        return "Todo Main Feature Application!";
     }
 }
